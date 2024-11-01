@@ -16,11 +16,11 @@ helper = "6.0.0"
 
 # Gradle plugins
 
-plugin-shadow = { group = "com.gradleup.shadow", name = "com.gradleup.shadow.gradle.plugin", version.ref = "shadow" }
-plugin-kotlin-jvm = { group = "org.jetbrains.kotlin.jvm", name = "org.jetbrains.kotlin.jvm.gradle.plugin", version.ref = "kotlin" }
-plugin-kotlin-kapt = { group = "org.jetbrains.kotlin.kapt", name = "org.jetbrains.kotlin.kapt.gradle.plugin", version.ref = "kotlin" }
-plugin-kotlin-serialization = { group = "org.jetbrains.kotlin.plugin.serialization", name = "org.jetbrains.kotlin.plugin.serialization.gradle.plugin", version.ref = "kotlin" }
-plugin-kotlin-atomicfu = { group = "org.jetbrains.kotlin.plugin.atomicfu", name = "org.jetbrains.kotlin.plugin.atomicfu.gradle.plugin", version.ref = "kotlin" }
+plugin-shadow = { group = "com.gradleup.shadow", name = "shadow-gradle-plugin", version.ref = "shadow" }
+plugin-kotlin-jvm = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+plugin-kotlin-kapt = { group = "org.jetbrains.kotlin", name = "kotlin-gradle-plugin", version.ref = "kotlin" }
+plugin-kotlin-serialization = { group = "org.jetbrains.kotlin", name = "kotlin-serialization", version.ref = "kotlin" }
+plugin-kotlin-atomicfu = { group = "org.jetbrains.kotlinx", name = "atomicfu-gradle-plugin", version.ref = "kotlinx-atomicfu" }
 plugin-nyaadanbou-conventions = { group = "cc.mewcraft.gradle", name = "conventions", version = "1.0-SNAPSHOT" }
 
 # Code dependencies
